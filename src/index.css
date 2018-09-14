@@ -2,10 +2,48 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: coral;
+  color: white;
 }
 
 .form-input-container{
   margin: auto;
   margin-top: 20px;
   width: 70%;
+}
+
+.card{
+  margin: auto;
+  width: 800px;
+  color: black;
+  text-align: left;
+  margin-top: 10%
+}
+.my-answer{
+  color: gray;
+  
+}
+.visible{
+  color: black;
+}
+.invisible-name{
+  color: white;
+  display: none;
+}
+.list-group-item{
+  color: black;
+}
+.list-group-item:hover{
+  color: blue;
+}
+.answer-item{
+  color: red
+}
+
+.list-group-item{
+  width: 70%;
+  margin: auto;
+}
+.list-group{
+  margin-top: 10%
 }
